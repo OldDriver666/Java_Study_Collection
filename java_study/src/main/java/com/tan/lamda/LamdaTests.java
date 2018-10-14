@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 public class LamdaTests {
 
 	public static void main(String[] args) {
-		// 匿名内部�?
+		// 匿名内部类
 		// new Thread(new Runnable(){
 		// public void run(){
 		// System.out.println("hello");
@@ -28,7 +28,7 @@ public class LamdaTests {
 		// languages.forEach(x -> System.out.println(x));
 		// languages.forEach(System.out::println);
 
-		//过滤�?
+		//过滤器
 //		List<String> languages = Arrays.asList("Java", "Scala", "C++", "Haskell", "Lisp");
 //
 //		System.out.println("Languages which starts with J :");
@@ -47,7 +47,7 @@ public class LamdaTests {
 //		filter(languages, (str) -> str.length() > 4);
 		
 		
-		//实现Map �? Reduce
+		//实现Map和Reduce
 		// applying 12% VAT on each purchase
 		// Without lambda expressions:
 //		List<Integer> costBeforeTax = Arrays.asList(100, 200, 300, 400, 500);
